@@ -10,6 +10,7 @@ NOTE: this plugin includes version 2.13.611 of the SL42 SDK.  **You must indepen
 =============
 
 To install, run the following from your project command line: 
+
 ```$ cordova plugin add https://github.com/truth86/fql-captuvo-laserscanner.git```
 
 

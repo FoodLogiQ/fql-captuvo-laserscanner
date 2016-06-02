@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-    id="com.bluefletch.honeywell.captuvo"
+    id="com.truth86.honeywell.captuvo"
     version="0.1">
     <name>CaptuvoCDV</name>
     <description>Honeywell Captuvo Cordova plugin</description>
     <license>MIT</license>
     <keywords>captuvo,magstripe,msr,barcode</keywords>
-    <repo>https://github.com/BlueFletch/cordova-plugin-honeywell-captuvo.git</repo>
+    <repo>cordova plugin add https://github.com/truth86/fql-captuvo-laserscanner.git</repo>
     <issue></issue>
     
     <js-module src="www/CaptuvoCDV.js" name="CaptuvoCDV">
