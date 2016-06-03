@@ -1,3 +1,4 @@
+// Created by Anatoly Sokolov (anatoly-sokolov@outlook.com) on 6/2/16.
 var exec = require("cordova/exec");
 
 module.exports.isConnected = false;

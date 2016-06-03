@@ -2,7 +2,7 @@
 //  Captuvo.h
 //  Honeywell_SDK
 //
-//  Created by Edward Finegan (edward@dryraintechnologies.com) on 5/20/12.
+//  Created by Anatoly Sokolov (anatoly-sokolov@outlook.com) on 6/2/16.
 //
 
 #import <UIKit/UIKit.h>

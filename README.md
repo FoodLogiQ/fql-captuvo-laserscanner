@@ -21,30 +21,10 @@ To install, run the following from your project command line:
 
 Register for callbacks for barcode scanning and/or magnetic stripe reads:
 ```
-   document.addEventListener("deviceready", function(){ 
-       ...
-       captuvo.registerScannerCallback(function(barcode){
-           
-           console.log("Barcode scanned: " + barcode);
-           
-           //TODO: handle barcode/label type
-       });
-       //This function will send the first readable track
-       captuvo.registerMagstripeCallback(function(track){
-       	    //track 1 uses carets as dividers (NOTE: won't work if track 2 is read)
-       	    if (track.indexOf("%B") == 0) {
-              track = track.split('^');
-            
-              var cc = {
-                 number : track[0].substr(2), //strip leading %B
-                 name : track[1].trim(),
-                 expr : '20' + track[2].substr(0,2) + '-' + track[2].substr(2,2)
-              };
-            } else {
-              //handle track 2
-            }
-		
-       });
+   captuvo.registerScannerCallback(function(barcode){
+        console.log("Barcode scanned: " + barcode);
+        //TODO: handle barcode/label type
+    });
        
 ```
 
