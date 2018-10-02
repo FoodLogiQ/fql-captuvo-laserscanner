@@ -7,7 +7,7 @@
     <description>Honeywell Captuvo Cordova plugin</description>
     <license>MIT</license>
     <keywords>captuvo,magstripe,msr,barcode</keywords>
-    <repo>cordova plugin add https://github.com/truth86/fql-captuvo-laserscanner.git</repo>
+    <repo>cordova plugin add https://github.com/RsanabriaZ/fql-captuvo-laserscanner.git</repo>
     <issue></issue>
     
     <js-module src="www/CaptuvoCDV.js" name="CaptuvoCDV">
