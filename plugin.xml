@@ -2,7 +2,7 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     id="com.truth86.honeywell.captuvo"
-    version="0.1">
+    version="0.1.0">
     <name>CaptuvoCDV</name>
     <description>Honeywell Captuvo Cordova plugin</description>
     <license>MIT</license>
