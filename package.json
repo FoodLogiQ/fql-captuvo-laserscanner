@@ -1,5 +1,5 @@
 {
-  "version": "0.1",
+  "version": "0.1.0",
   "name": "fql-captuvo-laserscanner",
   "cordova_name": "fql-captuvo-laserscanner",
   "description": "This is a Ionic plugin to interact with Honeywell Captuvo sled for iPhones, iPod Touches and iPad Minis",
